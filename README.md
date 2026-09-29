@@ -18,7 +18,7 @@ The dataset contained:
 * `ERROR` and `UNKNOWN` values
 * Duplicate Transaction IDs were checked
 * Incorrect data types
-* Potential inconsistencies between Quantity, Price per unit, and Total Spent
+* Checked consistency between Quantity, Price per unit, and Total Spent; no mismatches were found
 
 ## Cleaning Performed
 
@@ -38,6 +38,6 @@ The dataset contained:
 
 ## Files
 
-* `cafe_sales_cleaning.sql` — SQL queries used for data cleaning
+* `src/cafe_sales_cleaning.sql` — SQL queries used for data cleaning
 * `cafe_sales_cleaned.csv` — cleaned dataset
 * `README.md` — project documentation
