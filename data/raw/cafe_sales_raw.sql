@@ -1,4 +1,3 @@
--- I have just double clicked the schema i am working in SO under the hood GUI automatically sends a USE cafe_sales_raw(TABLE NAME)
 SELECT * FROM cafe_sales_raw;
 
 SELECT 
